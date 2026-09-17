@@ -33,7 +33,7 @@ build:
     args:
       VITE_API_URL: "/api"
   - name: server
-    context: ./backend
+    context: ./backendgit add .
     dockerfile: ./backend/docker/Dockerfile
   - name: caddy
     context: ./caddy
